@@ -28,3 +28,4 @@ ui.run(
     dark=True,  # Start in dark mode by default
     reload=False # Set to True during development, False for Docker
 )
+ui.run(host='0.0.0.0', port=8080, reload=False, dark=True)
